@@ -1,5 +1,5 @@
 <?php
-  include 'partials/connect.php';
+  include 'connect.php';
   $insert=false;
   $showError=false;
   if($_SERVER['REQUEST_METHOD']=='POST')
