@@ -43,7 +43,7 @@
   </head>
   <body>
    <?php
-        include 'partials/navbar.php';
+        include 'navbar.php';
         if($insert){
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
           <strong>Congratulations!</strong> Your account has been created successfully
@@ -65,7 +65,7 @@
    ?>
    <div class="container mt-3">
         <h1>Create A New Account For I-SECURE</h1>
-        <form method="post" action="signup.php">
+        <form method="post" action="index.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Username</label>
     <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp">
