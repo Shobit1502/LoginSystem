@@ -1,5 +1,5 @@
 <?php
-  include 'partials/connect.php';
+  include 'connect.php';
   $error=false;
   
   if($_SERVER['REQUEST_METHOD']=='POST')
@@ -48,7 +48,7 @@
   </head>
   <body>
   <?php
-     include 'partials/navbar.php';
+     include 'navbar.php';
      if($error){
       echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
       <strong>Sorry!</strong> You have entered invalid credentials.
